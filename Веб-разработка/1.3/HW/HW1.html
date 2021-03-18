@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Homework</title>
+</head>
+<body>
+
+<script>
+    'use strict';
+
+    let userAnswer = +prompt('Введите текущую температуру за окном');
+    let answerTf = (9 / 5) * userAnswer + 32;
+    alert('Температура по Фаренгейту ' + answerTf);
+
+</script>
+
+<script>
+    'use strict';
+
+    let name = 'Василий';
+    let admin = name;
+    console.log(admin);
+
+</script>
+
+<script>
+    'use strict';
+
+    console.log(10 + 10 + "10");
+    console.log(10 + "10" + 10);
+    console.log(10 + 10 + +"10");
+    console.log(10 / -"");
+   console.log(10 / +"2,5");
+
+    /*
+    1. 2010 Сначала произойдет сложение двух чисел, а потом конкатенация строк
+    2. 101010 т.к. строковый тип данных по середине, произойдет конкатенация строк
+    3. 20 10
+    4. infinity т.к. пустую строку можно приравнять к нулю, а при делении на ноль,
+       получается бесконечность
+    5. NaN т.к. дробные числа обозначаются через точку, при делении не получится преобразовать
+       строку в числовой тип данных.
+     */
+
+</script>
+
+</body>
+</html>
